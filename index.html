@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ジブンゴト | 普通の高校生を変える場所</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Noto Sans JP',sans-serif;
+    line-height:1.8;
+    color:#222;
+    background:#fff;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:900;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.4rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:16px 36px;
+    border-radius:999px;
+    background:#ff6b00;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.4rem;
+    margin-bottom:50px;
+    font-weight:800;
+}
+
+.about{
+    background:#fafafa;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.mission{
+    text-align:center;
+}
+
+.mission-box{
+    max-width:900px;
+    margin:auto;
+}
+
+.mission-box h3{
+    font-size:1.8rem;
+    margin-bottom:15px;
+}
+
+.flow{
+    background:#111;
+    color:white;
+}
+
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.step{
+    background:#1d1d1d;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+}
+
+.step-number{
+    font-size:2rem;
+    color:#ff6b00;
+    font-weight:900;
+}
+
+.support{
+    background:#fafafa;
+}
+
+.support-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.support-item{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.mentor{
+    text-align:center;
+}
+
+.target{
+    background:#111;
+    color:white;
+}
+
+.target ul{
+    max-width:600px;
+    margin:20px auto;
+    list-style:none;
+}
+
+.target li{
+    margin:15px 0;
+    font-size:1.1rem;
+}
+
+.cta{
+    text-align:center;
+    background:linear-gradient(135deg,#ff6b00,#ff9f43);
+    color:white;
+}
+
+.cta h2{
+    font-size:2.5rem;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer p{
+    opacity:.8;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.8rem;
+}
+
+.hero p{
+    font-size:1.1rem;
+}
+
+.section-title{
+    font-size:2rem;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="container">
+
+<h1>ジブンゴト</h1>
+
+<p>
+普通の高校生を変える場所。<br>
+「やってみたい」を、実際の挑戦に変える3か月プロジェクト。
+</p>
+
+<a href="#entry" class="btn">説明会に参加する</a>
+
+</div>
+</section>
+
+<section class="about">
+<div class="container">
+
+<h2 class="section-title">ジブンゴトとは？</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>やり方がわからない</h3>
+<p>
+挑戦したい気持ちはある。でも何から始めればいいかわからない。
+</p>
+</div>
+
+<div class="card">
+<h3>仲間がいない</h3>
+<p>
+同じ熱量で活動できる仲間や相談相手が見つからない。
+</p>
+</div>
+
+<div class="card">
+<h3>自信がない</h3>
+<p>
+失敗が怖くて一歩を踏み出せない。
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="mission">
+
+<div class="container">
+
+<h2 class="section-title">Mission</h2>
+
+<div class="mission-box">
+
+<h3>高校生の「やってみたい」を、実際の挑戦に変える。</h3>
+
+<p>
+ジブンゴトは、イベントや映画制作をする団体ではありません。
+本当に提供しているのは「挑戦する経験」です。
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="flow">
+
+<div class="container">
+
+<h2 class="section-title">3か月の流れ</h2>
+
+<div class="steps">
+
+<div class="step">
+<div class="step-number">01</div>
+<h3>興味発見</h3>
+<p>やりたいことを見つける</p>
+</div>
+
+<div class="step">
+<div class="step-number">02</div>
+<h3>企画立案</h3>
+<p>アイデアを形にする</p>
+</div>
+
+<div class="step">
+<div class="step-number">03</div>
+<h3>準備</h3>
+<p>仲間と計画を作る</p>
+</div>
+
+<div class="step">
+<div class="step-number">04</div>
+<h3>実行</h3>
+<p>企画を実現する</p>
+</div>
+
+<div class="step">
+<div class="step-number">05</div>
+<h3>振り返り</h3>
+<p>次の挑戦へつなげる</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="support">
+
+<div class="container">
+
+<h2 class="section-title">サポート内容</h2>
+
+<div class="support-grid">
+
+<div class="support-item">
+<h3>テーマ発見</h3>
+<p>好きなことや興味を整理します。</p>
+</div>
+
+<div class="support-item">
+<h3>企画づくり</h3>
+<p>アイデアを実現可能な企画へ。</p>
+</div>
+
+<div class="support-item">
+<h3>実行サポート</h3>
+<p>進捗管理や相談対応を行います。</p>
+</div>
+
+<div class="support-item">
+<h3>外部との接続</h3>
+<p>企業・地域・大学生との橋渡し。</p>
+</div>
+
+<div class="support-item">
+<h3>広報支援</h3>
+<p>SNSや告知のサポート。</p>
+</div>
+
+<div class="support-item">
+<h3>成果の言語化</h3>
+<p>活動報告書やポートフォリオ作成。</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="mentor">
+
+<div class="container">
+
+<h2 class="section-title">大学生メンター</h2>
+
+<p style="max-width:700px;margin:auto;">
+答えを教える先生ではなく、
+少し先を歩く先輩として高校生の挑戦に伴走します。
+「どうしたい？」「なぜそう思う？」
+という問いを通じて主体性を引き出します。
+</p>
+
+</div>
+
+</section>
+
+<section class="target">
+
+<div class="container">
+
+<h2 class="section-title">こんな人におすすめ</h2>
+
+<ul>
+<li>✔ 何か新しいことに挑戦したい</li>
+<li>✔ 学校以外の仲間がほしい</li>
+<li>✔ ガクチカを作りたい</li>
+<li>✔ 地域活動に興味がある</li>
+<li>✔ 自分を変えたい</li>
+</ul>
+
+</div>
+
+</section>
+
+<section class="cta" id="entry">
+
+<div class="container">
+
+<h2>まずは説明会へ</h2>
+
+<p style="margin-top:20px;">
+参加費無料。<br>
+興味があるだけでも大歓迎です。
+</p>
+
+<a href="#" class="btn" style="background:white;color:#ff6b00;">
+応募フォーム
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>ジブンゴト</h3>
+
+<p>
+普通の高校生を変える場所。
+</p>
+
+<p style="margin-top:10px;">
+お問い合わせ<br>
+zibungoto429@gmail.com
+</p>
+
+</footer>
+
+</body>
+</html>
