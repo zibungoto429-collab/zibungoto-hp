@@ -1,0 +1,49 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:white;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.logo{
+    font-weight:900;
+    font-size:1.3rem;
+}
+
+.menu-toggle{
+    font-size:2rem;
+    cursor:pointer;
+}
+
+#menu{
+    position:absolute;
+    top:70px;
+    right:20px;
+    background:white;
+    display:none;
+    flex-direction:column;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    overflow:hidden;
+}
+
+#menu a{
+    padding:15px 25px;
+    color:#222;
+    border-bottom:1px solid #eee;
+}
+
+#menu a:hover{
+    background:#f5f5f5;
+}
+
+.show{
+    display:flex !important;
+}
